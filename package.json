@@ -1,0 +1,18 @@
+{
+  "name": "atcoder-serverless-api",
+  "version": "1.0.0",
+  "author": "havveFn",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/aws-lambda": "^8.10.15",
+    "netlify-lambda": "^1.1.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
